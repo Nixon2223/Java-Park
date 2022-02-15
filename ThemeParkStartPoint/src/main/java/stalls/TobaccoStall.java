@@ -9,8 +9,7 @@ public class TobaccoStall extends Stall implements ISecurity {
         super(name, ownerName, parkingSpot);
     }
 
-    @Override
     public boolean isAllowedTo(Visitor visitor) {
-        return false;
+        return visitor.getAge() >= 18;
     }
 }
