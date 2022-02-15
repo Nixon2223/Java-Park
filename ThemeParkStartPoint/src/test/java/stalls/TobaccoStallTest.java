@@ -34,8 +34,8 @@ public class TobaccoStallTest {
 
     @Test
     public void canAllow(){
-        assertTrue(playground.isAllowedTo(visitor1));
-        assertFalse(playground.isAllowedTo(visitor2));
+        assertTrue(tobaccoStall.isAllowedTo(visitor1));
+        assertFalse(tobaccoStall.isAllowedTo(visitor2));
     }
 }
 
