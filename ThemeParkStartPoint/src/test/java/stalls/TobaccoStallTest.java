@@ -9,11 +9,12 @@ import static org.junit.Assert.*;
 public class TobaccoStallTest {
 
     TobaccoStall tobaccoStall;
+    Visitor visitor1, visitor2;
 
     @Before
     public void setUp() throws Exception {
         tobaccoStall = new TobaccoStall("Jacks Drum", "Jack Jarvis", ParkingSpot.B1);
-        visitor1 = new Visitor(15,200.00,50.00);
+        visitor1 = new Visitor(20,200.00,50.00);
         visitor2 = new Visitor(17,200.00,50.00);
     }
 
